@@ -37,8 +37,8 @@ df['DOB'] = pd.to_datetime(df['DOB'])
 # Function to send email
 def email_func(subject, birthday_receiver, name, institute_name, department_name):
     receiver = birthday_receiver
-    sender = 'ghanshyamg.cs.22@nitj.ac.in'  # Email id (update)
-    app_password = 'cqap xrel yghj xqjx'    # App password (update)
+    sender = 'YOUR E-MAIL ID'  # Email id (update)
+    app_password = 'YOUR AAP PASSWORD'    # App password (update)
     msg = MM()
     msg['Subject'] = subject + ' ' + str(name) + '!'
     HTML = """
